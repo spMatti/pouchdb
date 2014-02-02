@@ -26,9 +26,9 @@ How to run the tests
 cd tests_cordova
 cordova emulate android
 ```
-4. After a while emulator is started and test runner is loaded. Now you can see the test runner. ![Start screen](https://raw.github.com/spMatti/pouchdb/master/pouchdb/tests_cordova/doc/images/android_start.png "Start screen")
-5. From the dropdown you can select what tests are run. ![Select tests](https://raw.github.com/spMatti/pouchdb/master/pouchdb/tests_cordova/doc/images/android_select_test.png "Select tests")
-6. Click "run tests" and you will see the qunit test runner. You can use the back button to return to the start screen. ![Run tests](https://raw.github.com/spMatti/pouchdb/master/pouchdb/tests_cordova/doc/images/android_run.png "Run tests")
+4. After a while emulator is started and test runner is loaded. Now you can see the test runner. ![Start screen](https://raw.github.com/spMatti/pouchdb/master/tests_cordova/doc/images/android_start.png "Start screen")
+5. From the dropdown you can select what tests are run. ![Select tests](https://raw.github.com/spMatti/pouchdb/master/tests_cordova/doc/images/android_select_test.png "Select tests")
+6. Click "run tests" and you will see the qunit test runner. You can use the back button to return to the start screen. ![Run tests](https://raw.github.com/spMatti/pouchdb/master/tests_cordova/doc/images/android_run.png "Run tests")
 
 
 Possible problems
