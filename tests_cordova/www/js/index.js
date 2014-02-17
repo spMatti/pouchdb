@@ -42,6 +42,9 @@ var app = {
           var file = allTestFiles[index];
           testFile.options[testFile.options.length] = new Option(file, file);
         }
+        var host = document.getElementById("host");
+        host.value = testUtils.couchHost();
+
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.receivedarea');
@@ -54,6 +57,7 @@ var app = {
     // go to test page
     test: function() {
         var testFile = document.getElementById("testfile");
-        window.location = "tests/test.html?testFiles=" + testFile.value;
+        var host = document.getElementById("host");
+        window.location = "tests/test.html?testFiles=" + testFile.value + "&host=" + host.value;
     }
 };
